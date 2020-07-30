@@ -1,1 +1,43 @@
+html{
+	scroll-behavior: smooth;
+}
 
+a, p {
+	font-family: 'Raleway', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+h1, h2{
+	font-family: 'Paytone One', sans-serif;
+}
+#hideNav{
+	transition: 0.3s ease;
+}
+.custom-nav{
+	background-color: rgba(50,96,125,0.9);
+	color: white;
+	position: fixed;
+	width: 100%;
+}
+.text-custom{
+	color: white;
+	transition: 0.2s ease;
+}	
+.text-custom:hover{
+	color: #ccc;
+}
+
+#shadow{
+	position: absolute;
+	right: 200px;
+	width: 115px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: -1;
+}
+@media screen and (max-width: 990px) {
+#shadow{
+	display: none;
+}
+}
