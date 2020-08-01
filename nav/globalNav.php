@@ -8,13 +8,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto justify-content-between" style="width: 480px;">
       <li class="nav-item">
-        <a class="text-custom" href="#">What is Digi-Class?</a>
+        <a class="text-custom" href="#explain">What is Digi-Class?</a>
       </li>
       <li class="nav-item">
-        <a class="text-custom" href="#">Sign up</a>
+        <a class="text-custom" href="#signup">Sign up</a>
       </li>
       <li class="nav-item">
-        <a class="text-custom" href="#">About Us</a>
+        <a class="text-custom" href="#aboutus">About Us</a>
       </li>
       <li class="nav-item">
         <a class="text-custom" href="#"></a>

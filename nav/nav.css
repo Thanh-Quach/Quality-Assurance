@@ -1,0 +1,53 @@
+html{
+	scroll-behavior: smooth;
+}
+#hideNav{
+	transition: 0.3s ease;
+	z-index: 100;
+}
+.custom-nav{
+	background-color: rgba(48,77,115,0.9);
+	color: white;
+	position: fixed;
+	width: 100%;
+}
+.text-custom{
+	color: white;
+	transition: 0.2s ease;
+}	
+.text-custom:hover{
+	color: #ccc;
+}
+
+#shadow{
+	position: absolute;
+	right: 200px;
+	width: 115px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: -1;
+}
+.h-custom{
+	height: 30%;
+}
+#footer-nav{
+	background-color: #1484c9;
+}
+#footer-container h2{
+	font-size: 1.3em;
+	color: #fff;
+}
+#footer-container a{
+	color: #fff;
+}
+#footer{
+	color: #fff;
+}
+@media screen and (max-width: 990px) {
+#shadow{
+	display: none;
+}
+.h-custom{
+	height: 50%;
+}
+}
