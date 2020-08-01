@@ -1,0 +1,40 @@
+#signup{
+	color: #fff;
+	background-color: #32607d;
+	margin: 0;
+	height: 100%;
+}
+.color-ctrl{
+	background-color: rgba(0,0,0,0.4);
+	border-style: none;
+	transition: 0.3s ease;
+}
+.btn-color-2{
+	background-color: white;
+	border-style: none;
+	border-radius: 25px;
+}
+.btn-color-2 h1{
+	font-size: 1.3em;
+}
+.in-text{
+	color: #ffc587;
+}
+.in-text:hover{
+	color: #fff;
+}
+@media screen and (max-width: 990px) {
+#signup{
+	height: initial;
+}
+.h-35{
+	height: 100%;
+}
+.h-half{
+	height: 100%;
+	background-color: #32607d;
+}
+.btn-color-2 h1{
+	font-size: 1em;
+}
+}
