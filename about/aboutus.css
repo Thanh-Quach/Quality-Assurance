@@ -1,0 +1,66 @@
+#aboutus{
+	position: relative;
+	background-image: url(../img/aboutus-bg.jpg);
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	padding: 0;
+	color: white;
+}
+#aboutus-container{
+	background-color: rgba(0,0,0,0.8);
+}
+.h-30{
+	height: 30%;
+}
+.h-40{
+	height: 40%;
+}
+
+
+.placeholder{
+	background-color: gray;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+}
+#ourteam-responsive{
+	display: none;
+}
+#aboutus-container #scrollBtn{
+	top: 85%;
+}
+#scrollBtn p{
+	opacity: 0.3;
+	color: white;
+	animation: flash 3s infinite;
+}
+@media screen and (max-width: 990px) {
+#ourteam{
+	display: none;
+}
+#ourteam-responsive{
+	display: block;
+}
+.placeholder{
+	background-color: gray;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+
+}
+.h-30{
+	height: 60%;
+}
+.h-40{
+	height: 20%;
+}
+h3{
+	font-size: 1.2em;
+}
+.hide-btn{
+display: none;
+}
+}
